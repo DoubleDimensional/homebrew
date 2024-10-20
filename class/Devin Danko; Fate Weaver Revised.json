@@ -1,0 +1,1541 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "DDFateWeaver",
+				"abbreviation": "FW:R",
+				"full": "Fate Weaver (Revised)",
+				"authors": [
+					"Erikku Blade (Original), Devin Danko (Revised)"
+				],
+				"convertedBy": [
+					"Devin Danko"
+				],
+				"url": "https://youtu.be/Wb3UrJjAac4?si=FkiE2jfB5FnLSTfU",
+				"version": "1.0.0",
+				"color": "F363FF"
+			}
+		],
+		"dateAdded": 1610152284,
+		"dateLastModified": 1729047179
+	},
+	"class": [
+		{
+			"name": "Fate Weaver",
+			"source": "DDFateWeaver",
+			"hd": {
+				"number": 1,
+				"faces": 6
+			},
+			"proficiency": [
+				"wis",
+				"cha"
+			],
+			"spellcastingAbility": "cha",
+			"casterProgression": "full",
+			"cantripProgression": [
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5
+			],
+			"preparedSpells": "<$level$> + <$cha_mod$>",
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Dice Pool"
+					],
+					"rows": [
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							7
+						],
+						[
+							8
+						],
+						[
+							8
+						],
+						[
+							9
+						],
+						[
+							9
+						],
+						[
+							10
+						],
+						[
+							10
+						],
+						[
+							10
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"Fate Die"
+					],
+					"rows": [
+						[
+							"1d4"
+						],
+						[
+							"1d4"
+						],
+						[
+							"1d4"
+						],
+						[
+							"1d4"
+						],
+						[
+							"1d4"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d8"
+						],
+						[
+							"1d8"
+						],
+						[
+							"1d8"
+						],
+						[
+							"1d8"
+						],
+						[
+							"1d8"
+						],
+						[
+							"1d10"
+						],
+						[
+							"1d10"
+						],
+						[
+							"1d10"
+						],
+						[
+							"1d10"
+						],
+						[
+							"1d10"
+						],
+						[
+							"1d12"
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=Fate Weaver}"
+					],
+					"rows": [
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"{@filter Prepared Spells|spells|class=Fate Weaver (FW:R)}"
+					],
+					"rows": [
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							8
+						],
+						[
+							9
+						],
+						[
+							10
+						],
+						[
+							11
+						],
+						[
+							12
+						],
+						[
+							14
+						],
+						[
+							15
+						],
+						[
+							16
+						],
+						[
+							17
+						],
+						[
+							18
+						],
+						[
+							19
+						],
+						[
+							21
+						],
+						[
+							22
+						],
+						[
+							23
+						],
+						[
+							24
+						],
+						[
+							25
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Fate Weaver}",
+						"{@filter 2nd|spells|level=2|class=Fate Weaver}",
+						"{@filter 3rd|spells|level=3|class=Fate Weaver}",
+						"{@filter 4th|spells|level=4|class=Fate Weaver}",
+						"{@filter 5th|spells|level=5|class=Fate Weaver}",
+						"{@filter 6th|spells|level=6|class=Fate Weaver}",
+						"{@filter 7th|spells|level=7|class=Fate Weaver}",
+						"{@filter 8th|spells|level=8|class=Fate Weaver}",
+						"{@filter 9th|spells|level=9|class=Fate Weaver}"
+					],
+					"rows": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"startingProficiencies": {
+				"weapons": [
+					"daggers",
+					"darts",
+					"slings",
+					"quarterstaffs",
+					"light crossbows"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"deception",
+								"history",
+								"insight",
+								"medicine",
+								"nature",
+								"persuasion",
+								"religion"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item component pouch|phb} or (b) an {@item arcane focus}",
+					"(a) a {@item priest's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"Two {@item dagger|phb|daggers}",
+					"a {@item Divination Focus|DDFateWeaver}"
+				],
+				"defaultData": [
+					{
+						"a": [
+							"light crossbow|phb",
+							"crossbow bolts (20)|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"a": [
+							"component pouch|phb"
+						],
+						"b": [
+							"arcane focus|phb"
+						]
+					},
+					{
+						"a": [
+							"priest's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					},
+					{
+						"_": [
+							{
+								"item": "dagger|phb",
+								"quantity": 2
+							}
+						]
+					},
+					{
+						"_": [
+							{
+								"item": "Divination Focus|DDFateWeaver",
+								"quantity": 1
+							}
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"cha": 13
+				}
+			},
+			"classFeatures": [
+				"Spellcasting|Fate Weaver|DDFateWeaver|1",
+				"Fate Weaving|Fate Weaver|DDFateWeaver|1",
+				"Boon of Fate|Fate Weaver|DDFateWeaver|2",
+				"Spell Weaving|Fate Weaver|DDFateWeaver|2",
+				{
+					"classFeature": "Fate Weaver Subclass|Fate Weaver|DDFateWeaver|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Fate Weaver|DDFateWeaver|4",
+				"Premonition|Fate Weaver|DDFateWeaver|5",
+				{
+					"classFeature": "Subclass Feature|Fate Weaver|DDFateWeaver|6",
+					"gainSubclassFeature": true
+				},
+				"Arcane Adaptability|Fate Weaver|DDFateWeaver|7",
+				"Ability Score Improvement|Fate Weaver|DDFateWeaver|8",
+				{
+					"classFeature": "Subclass Feature|Fate Weaver|DDFateWeaver|10",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Fate Weaver|DDFateWeaver|12",
+				{
+					"classFeature": "Subclass Feature|Fate Weaver|DDFateWeaver|14",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Fate Weaver|DDFateWeaver|16",
+				"Straight from the Source|Fate Weaver|DDFateWeaver|17",
+				{
+					"classFeature": "Subclass Feature|Fate Weaver|DDFateWeaver|18",
+					"gainSubclassFeature": true
+				},
+				"Epic Boon|Fate Weaver|DDFateWeaver|19",
+				"Warp and Weft|Fate Weaver|DDFateWeaver|20"
+			],
+			"subclassTitle": "Aspect of Fate",
+			"classSpells": [
+				"Absorb Elements|xge",
+				"Aid|xphb",
+				"Alarm|xphb",
+				"Animal Messenger|xphb",
+				"Antimagic Field|xphb",
+				"Antipathy/Sympathy|xphb",
+				"Arcane Eye|xphb",
+				"Arcane Gate|xphb",
+				"Arcane Vigor|xphb",
+				"Astral Projection|xphb",
+				"Augury|xphb",
+				"Bane|xphb",
+				"Banishment|xphb",
+				"Beacon of Hope|xphb",
+				"Beast Bond|xge",
+				"Beast Sense|xphb",
+				"Bestow Curse|xphb",
+				"Blade Ward|xphb",
+				"Bless|xphb",
+				"Blindness/Deafness|xphb",
+				"Blink|xphb",
+				"Borrowed Knowledge|scc",
+				"Calm Emotions|xphb",
+				"Catnap|xge",
+				"Ceremony|xge",
+				"Charm Person|xphb",
+				"Circle of Power|xphb",
+				"Clairvoyance|xphb",
+				"Commune with Nature|xphb",
+				"Commune|xphb",
+				"Comprehend Languages|xphb",
+				"Confusion|xphb",
+				"Contact other Plane|xphb",
+				"Control Weather|xphb",
+				"Counterspell|xphb",
+				"Create Bonfire|xge",
+				"Create Food and Water|xphb",
+				"Create or Destroy Water|xphb",
+				"Creation|xphb",
+				"Cure Wounds|xphb",
+				"Dancing Lights|xphb",
+				"Dark Star|egw",
+				"Darkvision|xphb",
+				"Daylight|xphb",
+				"Death Ward|xphb",
+				"Demiplane|xphb",
+				"Detect Evil and Good|xphb",
+				"Detect Magic|xphb",
+				"Detect Poison and Disease|xphb",
+				"Detect Thoughts|xphb",
+				"Disguise Self|xphb",
+				"Dimension Door|xphb",
+				"Dispel Evil and Good|xphb",
+				"Dispel Magic|xphb",
+				"Dissonant Whispers|xphb",
+				"Divination|xphb",
+				"Divine Favor|xphb",
+				"Dream of the Blue Veil|tce",
+				"Dream|xphb",
+				"Druidcraft|xphb",
+				"Elemental Bane|xge",
+				"Elementalism|xphb",
+				"Enhance Ability|xphb",
+				"Etherealness|xphb",
+				"Fabricate|xphb",
+				"Far Step|xphb",
+				"Feather Fall|xphb",
+				"Feign Death|xphb",
+				"Find Familiar|xphb",
+				"Find Greater Steed|xge",
+				"Find Steed|xphb",
+				"Find the Path|xphb",
+				"Find Traps|xphb",
+				"Fly|xphb",
+				"Forbiddance|xphb",
+				"Foresight|xphb",
+				"Fortune's Favor|egw",
+				"Freedom of Movement|xphb",
+				"Friends|xphb",
+				"Gate|xphb",
+				"Gentle Repose|xphb",
+				"Gift of Alacrity|egw",
+				"Glibness|xphb",
+				"Globe of Invulnerability|xphb",
+				"Glyph of Warding|xphb",
+				"Gravity Fissure|egw",
+				"Gravity Sinkhole|egw",
+				"Greater Invisibility|xphb",
+				"Greater Restoration|xphb",
+				"Guidance|xphb",
+				"Guiding Bolt|xphb",
+				"Hallow|xphb",
+				"Haste|xphb",
+				"Heal|xphb",
+				"Healing Spirit|xge",
+				"Healing Word|xphb",
+				"Heroes' Feast|xphb",
+				"Hold Monster|xphb",
+				"Hold Person|xphb",
+				"Holy Aura|xphb",
+				"Hunter's Mark|xphb",
+				"Hypnotic Pattern|xphb",
+				"Identify|xphb",
+				"Illusory Script|xphb",
+				"Immovable Object|egw",
+				"Imprisonment|xphb",
+				"Invisibility|xphb",
+				"Invulnerability|xge",
+				"Knock|xphb",
+				"Legend Lore|xphb",
+				"Lesser Restoration|xphb",
+				"Levitate|xphb",
+				"Life Transference|xge",
+				"Light|xphb",
+				"Locate Animals or Plants|xphb",
+				"Locate Creature|xphb",
+				"Locate Object|xphb",
+				"Mage Armor|xphb",
+				"Mage Hand|xphb",
+				"Magic Circle|xphb",
+				"Magic Stone|xge",
+				"Magic Weapon|xphb",
+				"Magnify Gravity|egw",
+				"Major Image|xphb",
+				"Mass Cure Wounds|xphb",
+				"Mass Heal|xphb",
+				"Mass Healing Word|xphb",
+				"Mending|xphb",
+				"Message|xphb",
+				"Mind Blank|xphb",
+				"Minor Illusion|xphb",
+				"Mirror Image|xphb",
+				"Mislead|xphb",
+				"Misty Step|xphb",
+				"Modify Memory|xphb",
+				"Nondetection|xphb",
+				"Nystul's Magic Aura|xphb",
+				"Pass without Trace|xphb",
+				"Passwall|xphb",
+				"Phantasmal Force|xphb",
+				"Planar Ally|xphb",
+				"Planar Binding|xphb",
+				"Plane Shift|xphb",
+				"Power Word Fortify|xphb",
+				"Power Word Heal|xphb",
+				"Power Word Stun|xphb",
+				"Prayer of Healing|xphb",
+				"Prestidigitation|xphb",
+				"Project Image|xphb",
+				"Protection from Energy|xphb",
+				"Protection from Evil and Good|xphb",
+				"Pulse Wave|egw",
+				"Raise Dead|xphb",
+				"Rary's Telepathic Bond|xphb",
+				"Ravenous Void|egw",
+				"Reality Break|egw",
+				"Regenerate|xphb",
+				"Reincarnate|xphb",
+				"Remove Curse|xphb",
+				"Resistance|xphb",
+				"Resurrection|xphb",
+				"Reverse Gravity|xphb",
+				"Revivify|xphb",
+				"Rope Trick|xphb",
+				"Sacred Flame|xphb",
+				"Sanctuary|xphb",
+				"Sapping Sting|egw",
+				"Scatter|xge",
+				"Scrying|xphb",
+				"See Invisibility|xphb",
+				"Seeming|xphb",
+				"Sending|xphb",
+				"Sequester|xphb",
+				"Shield of Faith|xphb",
+				"Shield|xphb",
+				"Silence|xphb",
+				"Silent Image|xphb",
+				"skill empowerment|xge",
+				"skywrite|xge",
+				"Sleep|xphb",
+				"Slow|xphb",
+				"Spare the Dying|xphb",
+				"Speak with Animals|xphb",
+				"Speak with Dead|xphb",
+				"Spirit Guardians|xphb",
+				"Spirit Shroud|tce",
+				"Spiritual Weapon|xphb",
+				"Stone Shape|xphb",
+				"Suggestion|xphb",
+				"Symbol|xphb",
+				"Tasha's Otherworldly Guise|tce",
+				"Telekinesis|xphb",
+				"Telepathy|xphb",
+				"Teleport|xphb",
+				"Teleportation Circle|xphb",
+				"Temporal Shunt|egw",
+				"Tether Essence|egw",
+				"Thaumaturgy|xphb",
+				"Thunder Step|xphb",
+				"Time Ravage|egw",
+				"Time Stop|xphb",
+				"Tongues|xphb",
+				"True Resurrection|xphb",
+				"True Seeing|xphb",
+				"True Strike|xphb",
+				"Vortex Warp|scc",
+				"Wall of Force|xphb",
+				"Wall of Light|xge",
+				"Warding Bond|xphb",
+				"Water Breathing|xphb",
+				"Water Walk|xphb",
+				"Wish|xphb",
+				"Word of Recall|xphb",
+				"Wristpocket|egw",
+				"Zone of Truth|xphb"
+			],
+			"hasFluff": true
+		}
+	],
+			"classFluff": [
+		{
+		"name": "Fate Weaver",
+		"source": "DDFateWeaver",
+		"entries": [
+			{
+				"type": "entries",
+				"entries": [
+					"P1",
+					"P2",
+					"P3"
+					]
+				}
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Spellcasting",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 1,
+			"entries": [
+				"By manipulating the weave of magic directly, you can cast spells. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Fate Weaver spells, which appear in the Fate Weaver spell list later in the class's description.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Cantrips.",
+							"entries": [
+								"You know three Fate Weaver cantrips of your choice. {@spell Guidance|xphb}, {@spell Prestidigitation|xphb}, and {@spell Sacred Flame|xphb} are recommended. Whenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Fate Weaver cantrip of your choice.",
+								"When you reach Fate Weaver levels 4 and 10, you learn another Fate Weaver cantrip of your choice, as shown in the Cantrips column of the Fate Weaver Features table."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spell Slots.",
+							"entries": [
+								"The Fate Weaver Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Prepared Spells of Level 1+.",
+							"entries": [
+								"You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 Fate Weaver spells. {@spell Guiding Bolt|xphb}, {@spell Healing Word|xphb}, {@spell Mage Armor|xphb}, and {@spell Shield|xphb} are recommended.",
+								"The number of spells on your list increases as you gain Fate Weaver levels, as shown in the Prepared Spells column of the Fate Weaver Features table. Whenever that number increases, choose additional Fate Weaver spells until the number of spells on your list matches the number in the Fate Weaver Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Fate Weaver, your list of prepared spells can include six Fate Weaver spells of level 1 or 2 in any combination.",
+								"If another Fate Weaver feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Fate Weaver spells for you."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Changing Your Prepared Spells.",
+							"entries": [
+								"Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with other Fate Weaver spells for which you have spell slots"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Ability.",
+							"entries": [
+								"Charisma is your spellcasting ability for your Fate Weaver spells."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Focus.",
+							"entries": [
+								"You can use an {@item Arcane Focus|xphb} or a {@item Divination Focus|DDFateWeaver} as a Spellcasting Focus for your Fate Weaver spells."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fate Weaving",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 1,
+			"entries": [
+				"You have learned how to pull at the threads in the tapestry of fate to nudge any situation toward your desired outcome. Your ability to bend fate is represented by a pool of special dice called Fate Dice. You can use these dice to fuel the following option, and you gain additional uses for them as you level up.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Favor and Folly.",
+							"entries": [
+								"Immediately after another creature you within 30 feet of you rolls the d20 for a D20 Test, you can take a Reaction to expend 1 Fate Die and roll it, then apply the number rolled as a bonus or penalty (your choice) to the d20 roll."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Fate Dice Pool.",
+							"entries": [
+								"You have 2 Fate Dice, which are d4s. A Fate Die is expended when you use it. You regain all expended Fate Dice when you finish a Long Rest. You gain additional Fate Dice based on your level, as shown in the Dice Pool column of the Fate Weaver Features table."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "At Higher Levels.",
+							"entries": [
+								"Your Fate Die changes when you reach certain Fate Weaver levels, as shown in the Fate Die column of the Fate Weaver Features table. The die becomes a d6 at level 5, a d8 at level 10, a d10 at level 15, and a d12 at level 20."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Boon of Fate",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 2,
+			"entries": [
+				"Your mere existence in the world makes the tapestry of fate malleable, and with your guidance, others around you can bend their own fate. As a Magic action, you can expend one Fate Die to give a Boon of Fate to a creature within 15 feet of yourself. Once within the next hour when the creature fails a D20 Test, the creature can dismiss the Boon of Fate to reroll the test, potentially turning the failure into a success. A creature can have only one Boon of Fate at a time."
+			]
+		},
+		{
+			"name": "Spell Weaving",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 2,
+			"entries": [
+				"You have the uncanny ability to manipulate the weave of magic itself, which affords you a great flexibility in casting your spells. You can affect your spell slots using the options below.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Creating Spell Slots.",
+							"entries": [
+								"As a Bonus Action you can expend two spell slots of the same level to create one slot of the next level up. For example, you may expend two first level spell slots to create a second level slot. The created spell slots vanish at the end of a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Recovering Spell Slots.",
+							"entries": [
+								"As a Bonus Action, you can expend one spell slot of 2nd level or higher to recover two expended slots of a lower level. The sum of the recovered spell slot levels must be equal to or less than the level of the slot expended. For example, you can expend one third level slot to recover one first and one second level slot."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fate Weaver Subclass",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 3,
+			"entries": [
+				"You gain a Fate Weaver subclass of your choice. A subclass is a specialization that grants you features at certain Fate Weaver levels. For the rest of your career, you gain each of your subclass's features that are of your Fate Weaver level or lower."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 4,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|xphb} feat or another feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Premonition",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 5,
+			"entries": [
+				"When you roll Initiative, you can regain a number of expended Fate Dice equal to half your maximum number of Fate Dice (rounded down). Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 6,
+			"entries": [
+				"You gain a feature from your Fate Weaver subclass."
+			]
+		},
+		{
+			"name": "Arcane Adaptability",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 7,
+			"entries": [
+				"Whenever you finish a Short Rest, you can attune to the weave and replace one of the level 1+ Fate Weaver spells you have prepared for your Spellcasting feature with another level 1+ spell from the Fate Weaver spell list."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 8,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|xphb} feat or another feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 10,
+			"entries": [
+				"You gain a feature from your Fate Weaver subclass."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 12,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|xphb} feat or another feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 14,
+			"entries": [
+				"You gain a feature from your Fate Weaver subclass."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 16,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|xphb} feat or another feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Straight from the Source",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 17,
+			"entries": [
+				"You draw power from the infinite wellspring of magic, granting you the knowledge, wisdom, or cunning needed to learn magic you otherwise could not learn. Whenever you change your list of prepared spells, you can choose two of your prepared spells from the Cleric, Druid, or Wizard spell lists."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 18,
+			"entries": [
+				"You gain a feature from your Fate Weaver subclass."
+			]
+		},
+		{
+			"name": "Epic Boon",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 19,
+			"entries": [
+				"You gain an Epic Boon feat or another feat of your choice for which you qualify. {@feat Boon of Truesight|xphb} is recommended."
+			]
+		},
+		{
+			"name": "Boon of the Weave",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 20,
+			"entries": [
+				"Your ability to channel the weave through your body is far greater than any other mortal. You always have the {@spell Wish|xphb} spell prepared. Additionally, as an Action you can expend 10 Fate Dice to cause one of the following effects to occur:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Alter Reality.",
+							"entries": [
+								"You cast the {@spell Wish|xphb} spell to produce any effect other than duplicating another spell. You completely ignore the weakening and stress effects that you would normally suffer by doing so, and instead there is simply a 5 percent chance that you are unable to cast Wish ever again. Once you use this option, you can't do so again until you finish 2d4 long rests."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Fate Wish.",
+							"entries": [
+								"You duplicate any spell. You don't need to meet any requirements to cast that spell, including costly components. The spell simply takes effect. For the purposes of determining the spell's level, it is treated as a 10th level spell. When you choose this option you take one level of Exhaustion."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Restoration.",
+							"entries": [
+								"You regain expended spell slots with a combined level equal to or less than 10. Roll the Fate Dice spent by this feature and regain hit points equal to the result."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Warp and Weft",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 20,
+			"entries": [
+				"Your ability to channel the weave through your body is unrivaled by any other mortal. You gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Alter Reality.",
+							"entries": [
+								"You always have the Wish spell prepared, and whenever you cast Wish, you can choose the Roll Redo option without suffering any of the stress it would normally cause."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Threadspinner.",
+							"entries": [
+								"As a Bonus Action, you can enter a state of heightened power for 10 minutes. While in this state, you gain one temporary Fate Die at the start of each of your turns. This die is a d8, and you can only have one temporary Fate Die at a time.",
+								"Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 7+ spell slot (no action required)."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Aspect of The Vizier",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"subclassShortName": "The Vizier",
+			"subclassSource": "DDFateWeaver",
+			"level": 3,
+			"entries": [
+				"{@i Peer Into the Tapestry of Fate}",
+				"Your unique connection to the weave has given you an unparalleled view into the tapestry of fate. Many who embody the aspect of The Vizier serve the world as fortune tellers; peering into the future to offer advice to the misguided, give hope to those who seek love, and give confidence to those who doubt themselves. Whatever destiny awaits you and your companions, you are likely to see it coming.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Vizier Spells|Fate Weaver|DDFateWeaver|The Vizier|DDFateWeaver|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Innate Oracle|Fate Weaver|DDFateWeaver|The Vizier|DDFateWeaver|3"
+				}
+			]
+		},
+		{
+			"name": "Vizier Spells",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"subclassShortName": "The Vizier",
+			"subclassSource": "DDFateWeaver",
+			"level": 3,
+			"entries": [
+				"When you reach a Fate Weaver level specified in the Vizier Spells table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "table",
+					"caption": "Vizier Spells",
+					"colLabels": [
+						"Fate Weaver Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell Detect Magic|xphb}, {@spell Identify|xphb}, {@spell Augury|xphb}, {@spell See Invisibility|xphb}"
+						],
+						[
+							"5th",
+							"{@spell Clairvoyance|xphb}, {@spell Tongues|xphb}"
+						],
+						[
+							"7th",
+							"{@spell Divination|xphb}, {@spell Locate Creature|xphb}"
+						],
+						[
+							"9th",
+							"{@spell Commune|xphb}, {@spell Legend Lore|xphb}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Innate Oracle",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"subclassShortName": "The Vizier",
+			"subclassSource": "DDFateWeaver",
+			"level": 3,
+			"entries": [
+				"Your connection to the tapestry of fate allows you to effortlessly channel spells that reveal its secrets, and share those insights with others. You gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Guiding Hand.",
+							"entries": [
+								"You know the {@spell Guidance|xphb} cantrip and it does not count against your total number of Fate Weaver cantrips. When you cast Guidance, its range is 30 feet instead of Touch."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Minimal Exertion.",
+							"entries": [
+								"When you cast a spell from the Divination school that has a casting time of an action, you can instead cast it as a Bonus Action."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Self-Sufficient.",
+							"entries": [
+								"When you cast a spell from the Divination school, you can do so without any Verbal components, and you can replace any Material components that are consumed by the spell or that have a cost specified in the spell with a Divination Focus, which is not consumed."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Shared Insight",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"subclassShortName": "The Vizier",
+			"subclassSource": "DDFateWeaver",
+			"level": 6,
+			"entries": [
+				"You can share a small fraction of your view into the future with those touched by your magic. When a creature uses your Boon of Fate to reroll a failed D20 Test, they gain a bonus to the roll equal to your Charisma modifier."
+			]
+		},
+		{
+			"name": "Oracular Judgment",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"subclassShortName": "The Vizier",
+			"subclassSource": "DDFateWeaver",
+			"level": 10,
+			"entries": [
+				"You can harness your connection to fate to uplift those who follow your guidance, or punish those who defy it. Whenever you target a creature with your Fate Weaving feature, you can choose to expend a spell slot and roll a number of Fate Dice equal to the slot's level. The targeted creature either gains {@variantrule Temporary Hit Points|XPHB} or takes psychic damage equal to the result (your choice)."
+			]
+		},
+		{
+			"name": "Precognitive Reflex",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"subclassShortName": "The Vizier",
+			"subclassSource": "DDFateWeaver",
+			"level": 14,
+			"entries": [
+				"Your awareness of the future is so finely tuned that you can respond to events before they even happen. Once per turn, if you've already taken your Reaction, you can expend 1 Fate Die to take an additional Reaction. You can only take one Reaction per triggering effect."
+			]
+		},
+		{
+			"name": "Paragon of Prophecy",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"subclassShortName": "The Vizier",
+			"subclassSource": "DDFateWeaver",
+			"level": 18,
+			"entries": [
+				"Your ability to see the future is unparalleled. You always have the Foresight spell prepared, and you can cast it by expending 7 Fate Dice. Whenever you cast Foresight, you may also choose to change its casting time to one Action instead of one minute. If you do so, its duration is only one minute. The Minimal Exertion benefit of your Innate Oracle feature does not affect this casting of the spell."
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Divination Focus",
+			"source": "DDFateWeaver",
+			"type": "T",
+			"value": 100,
+			"rarity": "common",
+			"entries": [
+				"A Divination Focus is an item or set of items used to perform divination magic. A Fate Weaver can use such an item as a Spellcasting Focus. Below are a list of some common {@i Divination Focuses} and their method of use, but many other items and methods are used across many cultures.",
+				{
+					"type": "list",
+					"items": [
+						"A deck of illustrated cards which are shuffled and dealt to be read.",
+						"A shallow bowl of water into which needles are dropped.",
+						"Various bones, shells, dice, and other trinkets which are cast onto a surface.",
+						"A stone or metal bowl in which things are burnt and patterns are read from the ashes."
+					]
+				},
+				"To use a Divination Focus, a 10-minute ritual is initiated, during which you ask a single question. You then make a spellcasting ability check, adding your proficiency bonus. For an accurate reading, a DC 12 check is required, or a DC determined by the DM based on the complexity of the question. More specific inquiries may result in a higher DC. Upon a successful check, you receive a vague response of up to 50 words, or a visual representation that you interpret. You may use a divination focus a number of times per day equal to your proficiency bonus, with all uses replenishing at dawn."
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Aspect of The Vizier",
+			"shortName": "The Vizier",
+			"source": "DDFateWeaver",
+			"subclassSpells": [
+				"Detect Magic|xphb",
+				"Identify|xphb",
+				"Augury|xphb",
+				"See Invisibility|xphb",
+				"Clairvoyance|xphb",
+				"Tongues|xphb",
+				"Divination|xphb",
+				"Locate Creature|xphb",
+				"Commune|xphb",
+				"Legend Lore|xphb"
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Detect Magic|xphb",
+							"Identify|xphb",
+							"Augury|xphb",
+							"See Invisibility|xphb"
+						],
+						"5": [
+							"clairvoyance|xphb",
+							"tongues|xphb"
+						],
+						"7": [
+							"divination|xphb",
+							"locate creature|xphb"
+						],
+						"9": [
+							"commune|xphb",
+							"legend lore|xphb"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Aspect of The Vizier|Fate Weaver|DDFateWeaver|The Vizier|DDFateWeaver|3",
+				"Shared Insight|Fate Weaver|DDFateWeaver|The Vizier|DDFateWeaver|6",
+				"Oracular Judgment|Fate Weaver|DDFateWeaver|The Vizier|DDFateWeaver|10",
+				"Precognitive Reflex|Fate Weaver|DDFateWeaver|The Vizier|DDFateWeaver|14",
+				"Paragon of Prophecy|Fate Weaver|DDFateWeaver|The Vizier|DDFateWeaver|18"
+			],
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver"
+		}
+	],
+	"spell": [
+		{
+			"name": "Defer Destiny",
+			"level": 3,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "a creature you can see within range makes a {@variantrule D20 Test|XPHB|D20 Test}"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Fate Weaver",
+						"source": "DDFateWeaver"
+					}
+				]
+			},
+			"entries": [
+				"You pull the threads of fate away from one creature and hold them, re-threading them around another creature at a later time.",
+				"Record the number rolled by the triggering creature. The triggering creature must then reroll the {@variantrule D20 Test|XPHB|D20 Test} and use the new roll.",
+				"At any point while you maintain {@status Concentration|XPHB}, you may choose a creature you can see within range (you can choose yourself) that is about to make a {@variantrule D20 Test|XPHB|D20 Test}. Instead of rolling, the creature uses the number previously recorded and the spell ends.",
+				"If the spell ends before you select a second target, you take {@damage 2d8} force damage as the threads of fate tear away from your grasp.",
+				"{@i Created by the Fate Weaver Caladris Sylvendir Dewthorne}"
+			],
+			"source": "DDFateWeaver",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a sealed glass ampule with a needle and thread inside"
+			}
+		}
+	]
+}
